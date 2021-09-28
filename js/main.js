@@ -44,6 +44,8 @@ rec.onerror = function () {
 rec.onresult = function (evt) {
 	var command = evt.results[0][0].transcript;
 
+	elResult.textContent= command
+
 	var newLI = document.createElement('li');
 	newLI.setAttribute('class', 'item');
 
@@ -75,7 +77,7 @@ rec.onresult = function (evt) {
 
 	elList.appendChild(newLI);
 
-	elResult.textContent= command
+
 	
 };
 

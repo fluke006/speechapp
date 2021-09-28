@@ -77,6 +77,10 @@ img{
    list-style-type: none;
 }
 
+.item{
+   margin-bottom: 15px;
+}
+
 .result{
    display: block;
    width: 100px;

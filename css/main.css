@@ -6,7 +6,8 @@ img{
 }
 
 .container{
-   width: 1340px;
+   width: 100%;
+   max-width: 1340px;
    margin: 0 auto;
    padding: 20px;
 }
@@ -22,7 +23,8 @@ img{
 
 .say{
    display: block;
-   width: 300px;
+   width: 100%;
+   max-width: 300px;
    margin: 0 auto;
    margin-bottom: 25px;
    padding: 10px;
@@ -40,13 +42,15 @@ img{
 
 .say__list{
    display: block;
-   width: 350px;
+   width: 100%;
+   max-width: 350px;
    margin: 0;
    padding: 0;
 }
 
 .say__item{
-   width: 200px;
+   width: 100%;
+   max-width: 200px;
    margin: 0 auto;
    padding: 5px;
    font-size: 16px;
@@ -54,7 +58,8 @@ img{
 
 .btn{
    display: block;
-   width: 150px;
+   width: 100%;
+   max-width: 150px;
    margin: 0 auto;
    padding: 5px;
    color: white;
@@ -83,7 +88,8 @@ img{
 
 .result{
    display: block;
-   width: 100px;
+   width: 100%;
+   max-width: 100px;
    margin: 0 auto;
    margin-bottom: 25px;
    padding: 10px;
@@ -94,3 +100,5 @@ img{
    border-radius: 5px;
 
 }
+
+

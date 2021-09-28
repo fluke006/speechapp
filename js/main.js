@@ -67,7 +67,7 @@ rec.onresult = function (evt) {
 	}else{
 		image.setAttribute('src', carsLogo.image)
 
-		elResult.textContent = command + 'this word doesn\'t have box' 
+		elResult.textContent ='this word doesn\'t have box' 
 	}
 
 
